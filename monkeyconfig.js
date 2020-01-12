@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name           MonkeyConfig
+// @name           MonkeyConfig Modern
 // @namespace      http://odyniec.net/
 // @description    Easy configuration dialog builder for user scripts
 // @include        *
