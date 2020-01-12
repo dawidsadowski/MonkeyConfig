@@ -10,7 +10,7 @@
  * version 0.1.4
  * 
  * Copyright (c) 2011-2013 Michal Wojciechowski (odyniec.net)
- * v0.1.4 - January 2020 - David Hosier (https://github.com/david-hosier)
+ * v0.1.4 - January 2020 - David Hosier (https://github.com/david-hosier/MonkeyConfig)
  */
 
 function MonkeyConfig() {
