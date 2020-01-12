@@ -38,20 +38,8 @@ var cfg = new MonkeyConfig({
 ```
 
 And that's pretty much it. MonkeyConfig builds a configuration dialog based on
-the passed data:
-
-<!--
-![Example configuration dialog](http://wwwtest.odyniec.net/projects/monkeyconfig/dialog.png)
--->
-![Example configuration dialog](http://img691.imageshack.us/img691/6382/dialogs.png)
-
-It also adds a menu item in the User Script Commands menu to open the
-configuration dialog:
-
-<!--
-![Menu item to open the configuration dialog](http://wwwtest.odyniec.net/projects/monkeyconfig/menu_item.png)
--->
-![Menu item to open the configuration dialog](http://img651.imageshack.us/img651/325/menuitemopc.png)
+the passed data. It also adds a menu item in the User Script Commands menu to open the
+configuration dialog.
 
 At any time in your script, you can retrieve the value of a configuration
 parameter with the `get()` method:
@@ -65,3 +53,13 @@ and set a new value using the `set()` method:
 ```javascript
 cfg.set('font_size', 'Small');
 ```
+
+Supported Data Types
+--------------------
+
+* checkbox
+* number
+* select
+* text
+* color
+    * default value must be a hex color value
