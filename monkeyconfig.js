@@ -45,7 +45,7 @@ function MonkeyConfig() {
             
             if (data.buttons === undefined)
                 /* Set default buttons */
-                data.buttons = [ 'save', 'defaults', 'cancel' ];
+                data.buttons = [ 'zapisz', 'defaults', 'cancel' ];
             
             if (data.title === undefined)
                 /*
